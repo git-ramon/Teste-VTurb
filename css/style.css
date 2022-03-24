@@ -1,0 +1,158 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: 'Poppins';
+    font-size: 16px;
+    }
+
+
+body{
+    background-color: #FF7979;
+}
+
+.btn-free7day{
+    margin-right: 5%;
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 121px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #5E54A4;
+    border-radius: 15px;
+    box-shadow: 9px 7px 5px rgb(50 50 50 / 50%);
+}
+
+.btn-free7day:hover {
+    background-color: #8d35f1;
+    border-color: #8d35f1;
+    cursor: pointer;
+  }
+
+form{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 9px 7px 5px rgb(50 50 50 / 50%);
+}
+
+.btn-claim{
+    letter-spacing: 1px;
+    background-color: #38CC8B;
+    width: 100%;
+    font-weight: bold !important;
+    margin-top: 25px;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    box-shadow: 9px 7px 5px rgb(50 50 50 / 50%);
+}
+
+
+.section{
+    height: 244px;
+    left: 165px;
+    top: 290px;
+    color: white;
+    margin-left: 5%;
+    float: left;
+    width: 40%;
+    margin-top: 15%;
+}
+
+h1 {
+    font-size: 30px;
+    width: 50%;
+    font-weight: bolder;
+    font-family: system-ui;
+}
+
+.login {
+    margin-right: 10%;
+    float: right;
+    margin-top: 8%;
+}
+
+p {
+    width: 80%;
+}
+
+.p-terms{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.a-terms{
+    color: red;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media (max-width: 1200px){
+    .section {
+        height: 244px;
+        margin-left: 30%;
+        margin-right: 30%;
+        width: 50%;   
+    }
+
+    .login {
+        padding-left: 5%;
+        padding-right: 15%;
+        margin-bottom: 10%;
+        margin-top: 2px;
+    }
+}
+
+@media (max-width: 800px){
+    .section {
+        margin-left: 30%;
+        width: 50%;
+    }
+
+    h1 {
+        width: 90%;
+    }
+
+    .login {
+        padding: 20px;
+        width: 80%;
+    }
+
+    .btn-free7day {
+        width: 100%;
+        margin-top: 75px;
+    }
+}
+
+@media (max-width: 400px){
+    .btn-free7day {
+        width: 100%;
+        height: 60px;
+        margin-top: 10px;
+    }
+
+    .login {
+        padding: 5%;
+    }
+
+    p {
+        width: 80%;
+        text-align: center;
+    }
+
+    h1 {
+        width: 90%;
+        text-align: center;
+    }
+
+    .section {
+        margin-left: 5%;
+        width: 100%;
+        margin-top: 10%;
+    }
+}

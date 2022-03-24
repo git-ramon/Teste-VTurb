@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+
+  <title>Teste VTurb</title>
+</head>
+<body>
+  <main>
+    <div class="section">
+      <h1>Learn to code by watching others</h1><br>
+      <p>
+        see how experienced developers solve problems in real-time.
+        watching scripted tutorials is great, but understanding how
+        developers think is invaluable.
+      </p>
+    </div>
+    <div class="login">
+      <button class="btn-free7day">Try it free 7 days then $20/mo. thereafter</button><br><br>
+      <form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom01"></label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please choose a First name.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom02"></label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please choose a Last name.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustomUsername"></label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <!--<span class="input-group-text" id="inputGroupPrepend">@</span> -->
+              </div>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address"
+                aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a Valid Email.
+              </div>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-3 mb-3">
+            <label for="exampleInputPassword1"></label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+            <div class="invalid-feedback">
+              Please provide a valid password.
+            </div>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary btn-claim" type="submit">CLAIM YOUR FREE TRIAL</button><br><br>
+        <p class="p-terms">By clicking the button, you are agreeing to our <a href="#" class="a-terms">Terms and
+            Services</a></p>
+      </form>
+    </div>
+  </main>
+
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+
+  <script src="./js/bootstrap.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+</html>
