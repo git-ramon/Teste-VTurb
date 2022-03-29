@@ -138,10 +138,10 @@ b,
 strong {
   font-weight: bolder;
 }
-
+/*
 small {
   font-size: 80%;
-}
+}*/
 
 sub,
 sup {
@@ -240,8 +240,8 @@ button {
 }
 
 button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+ /* outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;*/
 }
 
 input,
@@ -421,12 +421,12 @@ hr {
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-
+/*
 small,
 .small {
   font-size: 80%;
   font-weight: 400;
-}
+}*/
 
 mark,
 .mark {
@@ -2310,7 +2310,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  /*box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);*/
 }
 
 .btn.disabled, .btn:disabled {
@@ -2337,7 +2337,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+ /* box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);*/
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2348,14 +2348,14 @@ fieldset:disabled a.btn {
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-  color: #fff;
+ /* color: #fff;
   background-color: #0062cc;
-  border-color: #005cbf;
+  border-color: #005cbf;*/
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+/*  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);*/
 }
 
 .btn-secondary {
@@ -2610,7 +2610,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  /*box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);*/
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
