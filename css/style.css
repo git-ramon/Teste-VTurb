@@ -8,29 +8,9 @@
     font-size: 16px;
     }
 
-
 body{
     background-color: #FF7979;
 }
-
-.btn-free7day{
-    margin-right: 5%;
-    width: 540px;
-    height: 60px;
-    left: 735px;
-    top: 121px;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #5E54A4;
-    border-radius: 15px;
-    box-shadow: 9px 7px 5px rgb(50 50 50 / 50%);
-}
-
-.btn-free7day:hover {
-    background-color: #8d35f1;
-    border-color: #8d35f1;
-    cursor: pointer;
-  }
 
 form{
     background-color: #FFFFFF;
@@ -39,18 +19,6 @@ form{
     border-radius: 10px;
     box-shadow: 9px 7px 5px rgb(50 50 50 / 50%);
 }
-
-.btn-claim{
-    letter-spacing: 1px;
-    background-color: #38CC8B;
-    width: 100%;
-    font-weight: bold !important;
-    margin-top: 25px;
-    border-radius: 10px !important;
-    padding: 10px !important;
-    box-shadow: 9px 7px 5px rgb(50 50 50 / 50%);
-}
-
 
 .section{
     height: 244px;
@@ -92,7 +60,40 @@ p {
     font-size: 14px;
 }
 
-/* Validaçao */
+/* /* *//* *//* *//* Botoes /* *//* *//* *//**/
+
+.btn-claim{
+    letter-spacing: 1px;
+    background-color: #38CC8B;
+    width: 100%;
+    font-weight: bold !important;
+    margin-top: 25px;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    box-shadow: 9px 7px 5px rgb(50 50 50 / 50%);
+}
+
+.btn-free7day{
+    margin-right: 5%;
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 121px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #5E54A4;
+    border-radius: 15px;
+    box-shadow: 9px 7px 5px rgb(50 50 50 / 50%);
+}
+
+.btn-free7day:hover {
+    background-color: #8d35f1;
+    border-color: #8d35f1;
+    cursor: pointer;
+  }
+
+
+/* *//* *//* *//* Validaçao /* *//* *//* *//* */
 
 .valid.success input{
     border: 2px solid #4ECA64 !important;
@@ -141,7 +142,7 @@ p {
     visibility: visible;
 }
 
-/* Responsividade */
+/* *//* *//* *//* Responsividade *//* *//* *//* */
 
 @media (max-width: 1200px){
     .section {
