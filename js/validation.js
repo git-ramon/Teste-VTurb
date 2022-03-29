@@ -36,7 +36,7 @@ function checkInputs(){
     }else if(regexemail.test(emailValue)){
       successValidation(email, 'Muito Bom!')
       }else{
-        errorValidation(email, 'Por favor, Insira um Email Valido!') 
+        errorValidation(email, 'Insira um Email Valido, Ex: Email@example.com') 
       }
 
   if(senhaValue == ''){
