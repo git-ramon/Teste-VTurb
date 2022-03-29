@@ -92,6 +92,57 @@ p {
     font-size: 14px;
 }
 
+/* Validaçao */
+
+.valid.success input{
+    border: 2px solid #4ECA64 !important;
+}
+
+.valid.error input{
+    border: 2px solid #DB5A5A !important;
+}
+
+.valid.success i .img-success{
+    visibility: visible;
+}
+
+.valid.error i .img-error{
+    visibility: visible;
+}
+
+.valid i {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.smallerror{
+    visibility: hidden;
+    position: absolute;
+    margin-top: 1px;
+    font-size: 14px;
+    color: #DB5A5A;
+}
+
+.valid.error .smallerror{
+    visibility: visible;
+}
+
+.smallsuccess{
+    visibility: hidden;
+    position: absolute;
+    margin-top: 1px;
+    font-size: 14px;
+    color: #4ECA64;
+}
+
+.valid.success .smallsuccess{
+    visibility: visible;
+}
+
+/* Responsividade */
+
 @media (max-width: 1200px){
     .section {
         height: 244px;
